@@ -309,7 +309,7 @@ def random_hinh():
     ax.set_ylabel('Y')
     ax.set_zlabel('Z')
     ax.set_title(f'Hình {hinh_ngau_nhien.capitalize()}')
-    ax.text(0, 0, -c, f'Length: {length:.2f}\nWidth: {width:.2f}\nHeight: {height:.2f}\nPerimeter: {perimeter:.2f}\nArea: {area:.2f}\nVolume: {volume:.2f}', fontsize=10, color='red')
+    ax.text(0, 0, -c, f'Length: {length:}\nWidth: {width:}\nHeight: {height:}\nPerimeter: {perimeter:}\nArea: {area:}\nVolume: {volume:}', fontsize=10, color='red')
     plt.show()
 
 def display_square_pyramid():
